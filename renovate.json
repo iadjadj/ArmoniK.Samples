@@ -5,9 +5,10 @@
   
   "packageRules": [
     {
-      "matchPackagePatterns": ["^ArmoniK"],
+      "matchPackagePatterns": ["*"],
+      "excludePackagePatters":["^ArmoniK"],
       "includeForks": true,
-      "groupName": "release Armonik packages"
-    }
+      "enable": false
+    },
   ]
 }
