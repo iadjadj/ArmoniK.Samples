@@ -1,0 +1,14 @@
+{
+  "forkProcessing": "enabled",
+  
+  "schedule": [ "every weekday" ],
+  "assignees": ["iadjadj"],
+  
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["^ArmoniK"],
+      "includeForks": true,
+      "groupName": "release Armonik packages"
+    }
+  ]
+}
