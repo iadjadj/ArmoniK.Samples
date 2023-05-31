@@ -6,7 +6,7 @@
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
-      "excludePackagePatters":["ArmoniK"],
+      "excludePackagePatters":["ArmoniK.Api"],
       "includeForks": true,
       "enable": false
     },
